@@ -13,5 +13,5 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    - name: Build_CodeQuality
-      run: gcc HelloWorld.c -o HelloWorld
+    - name: Build
+      run:  make all -C CPP-C-Project/CodeImplementation/
