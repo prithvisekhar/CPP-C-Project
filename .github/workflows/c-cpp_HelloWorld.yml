@@ -16,4 +16,4 @@ jobs:
     - name: configure
       run: ./configure
     - name: Build_CodeQuality
-      run: gcc sampleProgram.c -o sampleProgram
+      run: gcc HelloWorld.c -o HelloWorld
